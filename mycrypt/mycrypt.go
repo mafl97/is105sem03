@@ -14,7 +14,6 @@ func Krypter(melding []rune, alphabet []rune, chiffer int) []rune {
 	}
 	return kryptertMelding
 }
-
 func sokIAlfabetet(symbol rune, alfabet []rune) int {
 	for i := 0; i < len(alfabet); i++ {
 		if symbol == alfabet[i] {
